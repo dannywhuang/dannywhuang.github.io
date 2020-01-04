@@ -133,6 +133,21 @@ ul {
     text-decoration: none;
     color: #BDBDBD;
 }
+.itemInfo {
+    display: flex;
+}
+.itemLeft img {
+    height: 10vw;
+    width: 10vw;
+}
+.itemLeft {
+    margin-right: 2vw;
+}
+/*
+.item {
+    display:flex;
+}
+*/
 .hamburger {
     float: left;
     position: fixed;
@@ -142,8 +157,18 @@ ul {
     width: 40px;
     height: 40px;
 }
-/*
-.item {
-    display:flex;
+
+@media screen and (min-width: 420px) {
+    .hamburger {
+        display: none;
+    }
+    .name {
+        font-size: 14vw;
+        margin-top: 20vh;
+        margin-bottom: 10vh;
+    }
+    .profile {
+        font-size: 6vw;
+        text-align: center;
+    }
 }
-*/
