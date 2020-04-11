@@ -45,7 +45,7 @@ ul {
 .landing {
     color: #FEFFFF;
     background-image: url("../img/landing.jpg");
-    background-color: #77A6F7;/*#3AAFA9;*/
+    background-color: #000000;/*#3AAFA9;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
