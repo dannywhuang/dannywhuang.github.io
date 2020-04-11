@@ -63,10 +63,12 @@ ul {
     font-size: 2em;
     text-align: center;
     position: absolute;
+    box-sizing: border-box;
     bottom: 7vh;
     padding-left: 8vw;
     padding-right: 8vw;
     left: 0;
+    width: 100%;
 }
 
 
